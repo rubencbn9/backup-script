@@ -12,3 +12,4 @@ else
 	echo "carpeta no existe o no se ha dado"
 fi
 
+find /home/ruben/backup-script -name "roadmap_*" -mtime +5 -delete
