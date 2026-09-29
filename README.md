@@ -7,11 +7,10 @@
  Para utilizarlo basta con darle permisos de ejecucion chmod +x cambioNombre.sh y entonces ejecutarlo con ./cambioNombre.sh
  pasarle la carpeta ejemplo: ./cambioNombre.sh personal y generará 
  la carpeta personal_ano_mes_dia.
+ Las carpetas de mas de 5 dias serán eliminadas.
  Esto lo escribirá en la carpeta backup.log donde llevaremos el registro de los backup
-
+ Se utiliza la herramienta cron para que se ejecute automaticamente todos los dias a las 11:10 
 ## Requisitos
  Para ejecutar el script basta con tener la terminal de bash de unix. 
 ## Próximos pasos
 
-Se le implementará la herramienta de cron por lo que se ejecutara con la carpeta seleccionada
-a unas horas especificas cada día
